@@ -1,0 +1,131 @@
+body,ul,li,h1,h2{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body{
+    width:100%;
+    height:620px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+img{
+    border:0;
+}
+.container-fluid,.row{
+    margin:0;
+    padding:0;
+}
+.box{
+    height:100%;
+}
+.row{
+    height:100%;
+}
+.one,.two{
+    height:100%;
+    border:1px solid #000;
+    float:left;
+    margin:0;
+    padding:0;
+}
+.one1{
+    height:40px;
+    float:left;
+    margin:0;
+    padding:0;
+}
+.one11{
+    width:20%;
+    height:100%;
+    background:#ccc;
+    float:left;
+    text-align:center;
+    line-height:40px;
+    font-size:20px;
+    top:0;
+}
+.one1 input{
+    width:80%;
+    height:100%;
+    float:left;
+}
+.one2{
+    width:100%;
+    height:580px;
+    float:left;
+    border-top:1px solid #000;
+}
+.one21{
+    width:100%;
+    height:40px;
+    font-size:17px;
+    border-bottom:1px solid #000;
+    line-height:32px;
+    float:left;
+}
+.list{
+    width:100%;
+    height:40px;
+}
+
+.listcon{
+    position: relative;
+    width:100%;
+    height:40px;
+    padding:3px 0;
+    float:left;
+    line-height:30px;
+    border-bottom: 1px solid #000;
+}
+.listcon input{
+    border:0;
+    width:80%;
+
+}
+.listcon input:focus{
+    outline: none;
+
+}
+.listcon span{
+    margin-left:6px;
+}
+.remove{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease;
+    position: absolute;
+    right:10px;top:13px;
+}
+.listcon:hover .remove{
+    visibility: visible;
+    opacity: 1;
+}
+.add-list{
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+}
+.header{
+    width:100%;
+    height:81px;
+    border-bottom: 2px solid #000;
+
+}
+.header .title{
+    float:left;
+    line-height: 80px;
+    font-size:25px;
+    margin-left:6px;
+}
+.header .add-con{
+    float:right;
+    line-height: 80px;
+    font-size:25px;
+    cursor: pointer;
+    margin-right:4px;
+}
+
